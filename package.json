@@ -1,0 +1,29 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/EmmaR-RIT/http-api-assignment-ii#readme",
+  "bugs": {
+    "url": "https://github.com/EmmaR-RIT/http-api-assignment-ii/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmaR-RIT/http-api-assignment-ii.git"
+  },
+  "license": "ISC",
+  "author": "Emma Rausch",
+  "type": "commonjs",
+  "main": "src/server.js",
+  "scripts": {
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\"",
+    "start": "node ./src/server.js",
+    "dev": "nodemon --watch ./src ./src/server.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
+    "globals": "^17.12.0",
+    "nodemon": "^3.1.14"
+  }
+}
